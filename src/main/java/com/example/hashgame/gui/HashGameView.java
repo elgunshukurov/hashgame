@@ -1,13 +1,11 @@
 package com.example.hashgame.gui;
 
+import com.example.hashgame.core.GameEngine;
 import com.example.hashgame.model.Achievement;
 import com.example.hashgame.model.HashGame;
 import com.example.hashgame.exception.InvalidHashMoveException;
-import com.example.hashgame.core.GameEngine;
 import com.example.hashgame.model.Player;
-import com.example.hashgame.repository.LeaderBoardRepository;
 import com.example.hashgame.service.LeaderBoardService;
-import com.example.hashgame.service.impl.LeaderBoardServiceImpl;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

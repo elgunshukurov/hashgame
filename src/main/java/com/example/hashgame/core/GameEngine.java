@@ -20,9 +20,9 @@ public class GameEngine {
 	private HashGame hashGame;
 	
 	//Total value of the lines, columns and diagonals of the HashGame
-	private int lines[]= new int[3];
-	private int columns[]= new int[3];
-	private int diagonals[]= new int[2];
+	private int[] lines = new int[3];
+	private int[] columns = new int[3];
+	private int[] diagonals = new int[2];
 	
 	//Getters
 	public int getWhereHasWin() {
@@ -324,7 +324,7 @@ public class GameEngine {
 	
 	//Private methods
 	private void sumHash() {
-		int myHash[][] = new int[3][3];
+		int[][] myHash = new int[3][3];
 	
 		myHash = hashGame.getHashValues();
 		
